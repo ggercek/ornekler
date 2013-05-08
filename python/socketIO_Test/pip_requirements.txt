@@ -1,0 +1,4 @@
+django==1.5.1
+gevent==0.13.8
+git+git://github.com/abourget/gevent-socketio
+git+git://github.com/abourget/gevent-websocket
