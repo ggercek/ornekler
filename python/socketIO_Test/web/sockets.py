@@ -13,7 +13,7 @@ class ChatNamespace(BaseNamespace, BroadcastMixin):
 
         print 'yeni kullanici: ', msg
         self.emit('welcome', '%d numarali istemcisiniz.'%(client))
-        self.emit('message', 'socketIO_Test projesinden bir mesaj geldi...'%(client))
+        self.emit('message', 'socketIO_Test projesinden bir mesaj geldi... %d'%(client))
 
     def on_update(self, msg):
         print 'guncelleme bilgisi geldi. ', msg
